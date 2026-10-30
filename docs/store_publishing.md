@@ -50,6 +50,16 @@ you-have-got-pizza-deluxe-1.0.0-store.zip: READY for submission (store-ingest)
 
 ## Submitting (authenticated, human-controlled)
 
+Submit the zip exactly as it was built or downloaded. The Store needs `manifest.json` at the top level of the
+archive. Safari unpacks zips by default ("Open safe files after downloading"), and compressing that folder in
+Finder puts every file inside a folder and adds `__MACOSX/`. The Store then reports
+`bundle is missing manifest.json`. To check a zip before submitting:
+
+```bash
+python3 tools/validate_bundle.py path/to/bundle.zip
+```
+
+
 No script here contacts a Store, and no credentials are stored. A maintainer with a Store account
 creates a personal Bearer token (`/auth/tokens`) and submits from the PRG32 checkout:
 
