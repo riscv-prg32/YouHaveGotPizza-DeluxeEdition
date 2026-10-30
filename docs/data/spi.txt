@@ -1,0 +1,1 @@
+spi: pixels per frame in play: split mean 2569 peak 10240; one box mean 15190 peak 48768

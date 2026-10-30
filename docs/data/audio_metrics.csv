@@ -1,0 +1,4 @@
+song,peak,rms,stereo_correlation,side_to_mid,left_right_ratio
+title,11910,2493.6,0.856,0.077,0.998
+piazza,11724,2501.5,0.862,0.074,0.980
+mercato,12281,2634.2,0.846,0.083,0.987

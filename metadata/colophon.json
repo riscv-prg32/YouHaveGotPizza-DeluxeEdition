@@ -1,0 +1,45 @@
+{
+  "abi": "prg32-colophon-1.0",
+  "title": "You Have Got Pizza: Deluxe Edition",
+  "subtitle": "C'e pizza per te",
+  "version": "1.0.0",
+  "release_date": "2026-10-30",
+  "developer": {
+    "name": "UniParthenope PRG32",
+    "url": "https://github.com/riscv-prg32/YouHaveGotPizza-DeluxeEdition"
+  },
+  "authors": [
+    {
+      "role": "concept, the original demonstrator, project lead",
+      "name": "Raffaele Montella - UniParthenope"
+    },
+    {
+      "role": "game design, programming, pixel art, music, documentation",
+      "name": "Claude Code (Anthropic)"
+    }
+  ],
+  "license": "MIT",
+  "copyright": "Copyright 2026 PRG32",
+  "acknowledgements": [
+    "To every teacher whose cool tools make students hungry for knowledge, and foolish enough to try hard things.",
+    "Mechanics inspired by the earlier You Have Got Pizza demonstrator of the PRG32 family and by the walk-over-the-ingredients arcade genre. All characters, levels, pictures, music, sounds and code are original to this game.",
+    "Every picture is generated from text sources in tools/; every sound is the PRG32 SID-like synthesizer playing an original score. No samples, no recordings, no third-party assets.",
+    "PRG32 framework: tiles, indexed sprites, palette and the eight-voice stereo mixer."
+  ],
+  "content_notice": "No violence: students are fed, never hurt. They are only dazed by a cloud of flour.",
+  "controls": [
+    {
+      "input": "Joystick",
+      "action": "Walk and climb"
+    },
+    {
+      "input": "A / B",
+      "action": "Throw flour"
+    },
+    {
+      "input": "START",
+      "action": "Pause (title: high scores)"
+    }
+  ],
+  "start_prompt": "Press A to teach"
+}

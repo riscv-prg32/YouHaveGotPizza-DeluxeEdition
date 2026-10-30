@@ -1,0 +1,93 @@
+{
+  "abi": "prg32-metadata-1.0",
+  "id": "org.riscv-prg32.you-have-got-pizza-deluxe",
+  "title": "You Have Got Pizza: Deluxe Edition",
+  "version": "1.0.0",
+  "summary": "Walk over the ingredients, drop them on the peel, and feed a whole class of hungry students before the bell.",
+  "description": "C'e pizza per te! The Professor has six lessons to feed a class that is hungry for knowledge. Walk across the dough, sauce, cheese and basil on the floors of Naples to make them fall onto the serving peels below. A layer that falls pushes the one under it, feeds any student beneath it, and carries any student standing on it for a bigger bonus. Throw flour to daze the students who come too close with their questions, grab espresso, lemons, books and mozzarella, and finish before the bell for the mark every professor dreams of: 30 e lode. A fully playable arcade game and an open teaching artifact: indexed colours with custom palettes, firmware background tiles, dirty-region rendering, eight SID-like voices in stereo with an original 6/8 soundtrack that follows the danger, and a documented, reproducible build. An original game inspired by the earlier You Have Got Pizza demonstrator; every picture and every note was made for it.",
+  "authors": [
+    {
+      "name": "Raffaele Montella",
+      "affiliation": "UniParthenope"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/riscv-prg32/YouHaveGotPizza-DeluxeEdition",
+  "repository": "https://github.com/riscv-prg32/YouHaveGotPizza-DeluxeEdition",
+  "language": "en",
+  "tags": [
+    "game",
+    "arcade",
+    "platform",
+    "pizza",
+    "naples",
+    "education",
+    "riscv",
+    "indexed-color",
+    "tilemap",
+    "sid-like",
+    "stereo"
+  ],
+  "created_at": "2026-10-30T00:00:00Z",
+  "updated_at": "2026-10-30T00:00:00Z",
+  "players": "1",
+  "colophon": {
+    "abi": "prg32-colophon-1.0",
+    "title": "You Have Got Pizza: Deluxe Edition",
+    "subtitle": "C'e pizza per te",
+    "version": "1.0.0",
+    "release_date": "2026-10-30",
+    "developer": {
+      "name": "UniParthenope PRG32",
+      "url": "https://github.com/riscv-prg32/YouHaveGotPizza-DeluxeEdition"
+    },
+    "authors": [
+      {
+        "role": "concept, the original demonstrator, project lead",
+        "name": "Raffaele Montella - UniParthenope"
+      },
+      {
+        "role": "game design, programming, pixel art, music, documentation",
+        "name": "Claude Code (Anthropic)"
+      }
+    ],
+    "license": "MIT",
+    "copyright": "Copyright 2026 PRG32",
+    "acknowledgements": [
+      "To every teacher whose cool tools make students hungry for knowledge, and foolish enough to try hard things.",
+      "Mechanics inspired by the earlier You Have Got Pizza demonstrator of the PRG32 family and by the walk-over-the-ingredients arcade genre. All characters, levels, pictures, music, sounds and code are original to this game.",
+      "Every picture is generated from text sources in tools/; every sound is the PRG32 SID-like synthesizer playing an original score. No samples, no recordings, no third-party assets.",
+      "PRG32 framework: tiles, indexed sprites, palette and the eight-voice stereo mixer."
+    ],
+    "content_notice": "No violence: students are fed, never hurt. They are only dazed by a cloud of flour.",
+    "controls": [
+      {
+        "input": "Joystick",
+        "action": "Walk and climb"
+      },
+      {
+        "input": "A / B",
+        "action": "Throw flour"
+      },
+      {
+        "input": "START",
+        "action": "Pause (title: high scores)"
+      }
+    ],
+    "start_prompt": "Press A to teach"
+  },
+  "assets": {
+    "icon": "icon.png",
+    "splash": "splash.png"
+  },
+  "architectures": [
+    {
+      "id": "esp32c6",
+      "file": "you-have-got-pizza-deluxe-esp32c6.prg32"
+    },
+    {
+      "id": "qemu",
+      "file": "you-have-got-pizza-deluxe-qemu.prg32"
+    }
+  ]
+}

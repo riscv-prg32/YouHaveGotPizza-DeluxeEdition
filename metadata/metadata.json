@@ -1,0 +1,54 @@
+{
+  "abi": "prg32-metadata-1.0",
+  "id": "org.riscv-prg32.you-have-got-pizza-deluxe",
+  "title": "You Have Got Pizza: Deluxe Edition",
+  "version": "1.0.0",
+  "summary": "Walk over the ingredients, drop them on the peel, and feed a whole class of hungry students before the bell.",
+  "description": "C'e pizza per te! The Professor has six lessons to feed a class that is hungry for knowledge. Walk across the dough, sauce, cheese and basil on the floors of Naples to make them fall onto the serving peels below. A layer that falls pushes the one under it, feeds any student beneath it, and carries any student standing on it for a bigger bonus. Throw flour to daze the students who come too close with their questions, grab espresso, lemons, books and mozzarella, and finish before the bell for the mark every professor dreams of: 30 e lode. A fully playable arcade game and an open teaching artifact: indexed colours with custom palettes, firmware background tiles, dirty-region rendering, eight SID-like voices in stereo with an original 6/8 soundtrack that follows the danger, and a documented, reproducible build. An original game inspired by the earlier You Have Got Pizza demonstrator; every picture and every note was made for it.",
+  "authors": [
+    {
+      "name": "Raffaele Montella",
+      "affiliation": "UniParthenope"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/riscv-prg32/YouHaveGotPizza-DeluxeEdition",
+  "repository": "https://github.com/riscv-prg32/YouHaveGotPizza-DeluxeEdition",
+  "language": "en",
+  "tags": [
+    "game",
+    "arcade",
+    "platform",
+    "pizza",
+    "naples",
+    "education",
+    "riscv",
+    "indexed-color",
+    "tilemap",
+    "sid-like",
+    "stereo"
+  ],
+  "created_at": "2026-10-30T00:00:00Z",
+  "updated_at": "2026-10-30T00:00:00Z",
+  "runtime": {
+    "platform": "PRG32",
+    "isa": "RV32IMC",
+    "architectures": [
+      {
+        "id": "esp32c6",
+        "label": "ESP32-C6 hardware",
+        "target": "esp32c6",
+        "display": "ili9341",
+        "isa": "RV32IMC"
+      },
+      {
+        "id": "qemu",
+        "label": "QEMU virtual screen",
+        "target": "esp32c3",
+        "display": "qemu-rgb",
+        "isa": "RV32IMC"
+      }
+    ]
+  },
+  "players": "1"
+}

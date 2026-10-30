@@ -53,3 +53,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build outputs (dist/ is committed: it is the release)
+build/
+__pycache__/

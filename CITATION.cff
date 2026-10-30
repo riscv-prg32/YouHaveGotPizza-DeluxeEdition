@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "You Have Got Pizza: Deluxe Edition"
+abstract: "A PRG32 arcade cartridge and open teaching artifact for RV32IMC: indexed colour, firmware tiles, dirty-region rendering and an eight-voice SID-like stereo soundtrack, with a reproducible build and a Monte Carlo balance study."
+type: software
+authors:
+  - family-names: Montella
+    given-names: Raffaele
+    affiliation: "University of Naples Parthenope"
+version: 1.0.0
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/riscv-prg32/YouHaveGotPizza-DeluxeEdition"
+keywords: [RISC-V, PRG32, education, game, indexed colour, tilemap, SID]
