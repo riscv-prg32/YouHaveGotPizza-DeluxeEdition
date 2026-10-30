@@ -106,6 +106,7 @@ run by the program itself, and it is a useful thing to show students.
 | Display transfer | 1.6 ms | 6.3 ms | *Estimated*: measured pixels x 0.62 us |
 | Firmware drawing | not measured | not measured | Not counted by the model above |
 
-The budget is 33 ms, so a comfortable 30 Hz is expected, but **this has not been measured on
-a board**. The firmware's `/api/performance.json` tooling is the way to do it
-([testing.md](testing.md)).
+The budget is 33 ms, so this model predicted a comfortable 30 Hz. **Measured on a board, the game
+holds about 30 Hz with dips to about 20 Hz in busy moments**, so the model leaves out something real;
+the likely part is in [firmware-notes.md](firmware-notes.md), note 8. Figures are in
+[testing.md](testing.md).

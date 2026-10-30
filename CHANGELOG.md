@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+Documentation only: first test on an ESP32-C6 recorded in `docs/testing.md`, with new firmware findings in
+`docs/firmware-notes.md`. The cartridge and its bundle are unchanged.
+
 ## 1.0.0 (2026-10-30)
 
 First release of the Deluxe Edition: six lessons and an endless second year; the Professor, three kinds of

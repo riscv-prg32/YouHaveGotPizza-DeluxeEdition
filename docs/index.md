@@ -33,8 +33,8 @@ To keep results honest, each one is labelled by how it was obtained:
 - **Measured:** produced by a script in this repository, with data in [data/](data/).
 - **Observed:** seen on a real firmware under QEMU or on PRG32-QT.
 - **Estimated:** computed from a model or from a figure measured by another project.
-- **Not verified:** see [testing.md](testing.md); notably, **this release has not been
-  run on a physical ESP32-C6**, and no person other than its authors has play-tested it.
+- **Not verified:** see [testing.md](testing.md); notably, on a physical ESP32-C6 **nobody has yet
+  looked at the panel or listened to the audio**, and no person other than its authors has play-tested it.
 
 ## How to cite
 

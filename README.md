@@ -31,7 +31,7 @@ In QEMU: `w a s d`, `j` or `k`, and Enter.
 
 ## Status
 
-Runs on the PRG32 firmware under QEMU and on the PRG32-QT core, and passes the Cartridge Store's own ingestion check. **It has not yet been run on a physical ESP32-C6, nor play-tested by people.** See [docs/testing.md](docs/testing.md).
+Runs on the PRG32 firmware under QEMU and on the PRG32-QT core, and passes the Cartridge Store's own ingestion check. It also runs on a physical ESP32-C6, from title to game over, at about 30 Hz with dips in the busier lessons. **Nobody has yet looked at its panel, listened to it on the board, or play-tested it.** See [docs/testing.md](docs/testing.md).
 
 The Store bundle is `dist/you-have-got-pizza-deluxe-1.0.0-store.zip`. It has not been submitted. See [docs/store_publishing.md](docs/store_publishing.md).
 

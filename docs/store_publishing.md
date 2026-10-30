@@ -44,7 +44,7 @@ you-have-got-pizza-deluxe-1.0.0-store.zip: READY for submission (store-ingest)
 - [x] `scripts/build.sh`: both cartridges, budgets respected, position independence proven
 - [x] `scripts/check_hosts.sh`: PRG32-QT and QEMU pass
 - [x] `scripts/pack-store-bundle.sh`: `READY for submission (store-ingest)`
-- [ ] Hardware acceptance on an ESP32-C6 ([testing.md](testing.md))
+- [ ] Hardware acceptance on an ESP32-C6: runs on the board; the panel, audio and joystick still need a person ([testing.md](testing.md))
 - [ ] Metadata reviewed by the project owner: Store id, authors, license, description
 - [ ] Human approval of the release
 
