@@ -3,7 +3,9 @@
 ## Unreleased
 
 Documentation only: first test on an ESP32-C6 recorded in `docs/testing.md`, with new firmware findings in
-`docs/firmware-notes.md`. The cartridge and its bundle are unchanged.
+`docs/firmware-notes.md`. The cartridges are unchanged.
+
+Store bundle rebuilt: its description now says stereo needs a stereo firmware build, since the default firmware is mono.
 
 ## 1.0.0 (2026-10-30)
 
